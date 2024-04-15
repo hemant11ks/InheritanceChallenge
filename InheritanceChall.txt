@@ -1,0 +1,23 @@
+                                      Worker
+                                      name: String
+                                      birthDate: String
+                                      endDate: String
+                                      -----------------------
+                                      int getAge()
+                                      double collectPay()
+                                      terminate(String endDate)
+                                               /|\
+                                                |
+                                            EMPLOYEE
+                                            employeeId: long
+                                            hireDate: String
+                                                /|\          
+                                                 |
+                             ------------------------------------------
+                             |                                        |
+                             |                                        |
+                    SALARIEDEmployee                           HourlyEmployee       
+                    annualSalary: double                       getDoublePay()
+                    isRetired: boolean
+                    --------------------
+                    retire()                    
